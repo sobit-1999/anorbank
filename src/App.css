@@ -2,4 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(155, 19, 78);
 }
