@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' element={<JShPage />} />
+        {/* <Route path='/' element={<JShPage />} /> */}
       </Routes>
       </BrowserRouter>
     </div>

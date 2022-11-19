@@ -5,7 +5,6 @@ import Grid from "@mui/material/Grid";
 import Logo from "../images/logo.svg";
 import {
   AppBar,
-  Button,
   Collapse,
   Divider,
   IconButton,
@@ -72,7 +71,9 @@ export default function Header() {
               sx={{
                 display: {
                   md:"flex", 
-                  xs: "none"},
+                  xs: "none",
+                sm: "none"
+                },
 
                 justifyContent: "flex-end",
                 alignItems: "center"
@@ -95,7 +96,7 @@ export default function Header() {
                 );
               })}
             </Box>
-          <Menu sx={{ display: {xs: "block", md: "none"}}}/>
+          <Menu sx={{ display: {sx:"block", xs: "block", md: "none"}}}/>
           </Item>
         </Grid>
         <Grid 
